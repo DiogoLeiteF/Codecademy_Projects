@@ -6,7 +6,7 @@ body{
     background-color: black;
     opacity: 0.9;
     margin: 0 auto;
-    padding: 10px;   
+    padding: 0;   
 }
 
 
@@ -18,13 +18,14 @@ nav{
     height: 69px;
     position: fixed;
     top: 0;
-    width: 98%;
+    width: 100%;
     border-bottom: 1px solid seashell;
 }
 
 ul{
    display: inline-flex; 
    justify-items: end;
+   margin-right: 10px;
 }
 
 li{
@@ -35,6 +36,7 @@ li{
 
 .logo{ 
     height: 50px;
+    margin-left: 10px;
 }
 
 .img_fundo{
