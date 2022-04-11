@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+.headerAnimation{
+    text-align: center;
+    color: white;
+    display: flex;
+    width: 60%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: baseline;
+}
+
+.headerAnimation h1{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+
+.headerAnimation h2{
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+}
+
+
+.hello{
+    font-size: 3rem;
+    transition: all 0.4s ease;
+}
+
+.hello .fade{
+    color: rgb(219, 41, 151);
+}
+
+.portfolio{
+    color: rgb(32, 32, 32);
+    font-size: 1;
+    transition: all 0.2s ease;
+}
+
+.portfolio .fade{
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.header-button{
+    margin: 30px auto;
+    padding: 0.8rem 1.7rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.header-button:hover{
+    background-color: rgb(55, 156, 196);
+    border: 1px solid rgb(55, 156, 196);
+}
+
+nav{
+    background-color: rgb(19, 19, 19);
+    padding: 1.2rem;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border-bottom: 3px solid rgb(55, 156, 196);
+
+}
+
+ul{
+    margin: 0 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+li {
+    display: inline;  
+}
+li a{
+    padding: 0 2rem;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+a.home{
+    color: rgb(219, 41, 151);
+}
+
+li a:hover{
+    color: rgb(219, 41, 151);
+}
+
+.about{
+    height: 100vh;
+    background-color: whitesmoke;
+}
