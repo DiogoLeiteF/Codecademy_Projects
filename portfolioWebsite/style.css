@@ -67,7 +67,7 @@ body{
 }
 
 .header-button:hover{
-    background-color: rgb(55, 156, 196);
+    background-color: rgb(55, 156, 196) ;
     border: 1px solid rgb(55, 156, 196);
 }
 
@@ -78,7 +78,7 @@ nav{
     position: sticky;
     top: 0;
     border-bottom: 3px solid rgb(55, 156, 196);
-
+    z-index: 100;
 }
 
 ul{
@@ -105,7 +105,110 @@ li a:hover{
     color: rgb(219, 41, 151);
 }
 
-.about{
+#about{
     height: 100vh;
     background-color: whitesmoke;
+    margin: auto;
+}
+
+.profile{
+    position: relative;
+    top: 60px;
+    background-image: url("./img/profile.png");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    max-width: 1300px;
+    margin: auto;
+    
+}
+
+.about-text{
+    height: 45vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-text h2{
+    background-color: rgb(55, 156, 196);
+    color: whitesmoke;
+    padding: 2rem 4rem;
+    border-radius: 5px;
+}
+
+#who-text{
+    width: 35%;
+    min-width: 350px;
+    margin: 1rem;
+    background-color: rgb(32, 32, 32);
+    padding: 2rem 3rem;
+    color: whitesmoke;
+    border-radius: 5px;
+    display: none;
+}
+
+#tools-text{
+    width: 35%;
+    min-width: 350px;
+    margin: 1rem;
+    background-color: rgb(32, 32, 32);
+    padding: 2rem 3rem;
+    color: whitesmoke;
+    border-radius: 5px;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#tools-text img{
+    width: 20%;
+    margin: 1rem;
+}
+
+#portfolio{
+    background-color: rgb(227, 227, 227);
+    height: 100vh;
+    text-align: center;
+}
+
+#portfolio h2{
+    padding-top: 70px;
+}
+
+#contact{
+    background-color: rgb(32, 32, 32);
+    height: 300px;
+    text-align: center;
+    color:whitesmoke
+}
+
+#contact h2{
+    padding: 35px 0;
+    color: whitesmoke;
+}
+
+#contact p{
+    padding: 1rem;
+}
+
+.links{
+    padding: 2rem;
+}
+.links a{
+    text-decoration: none;
+    padding: 1rem;
+    color: whitesmoke;
+}
+
+footer{
+    background-color: rgb(19, 19, 19);
+    height: 60px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 25px;
+}
+.highlight{
+    color: rgb(219, 41, 151);
 }

@@ -54,4 +54,29 @@ function complete2(){
     timer2 = null
 }
 
+// about section
+
+const whoDisplay = document.getElementById("who")
+const toolsDisplay = document.getElementById("tools")
+const whoTextDisplay = document.getElementById("who-text")
+const toolsTextDisplay = document.getElementById("tools-text")
+
+whoDisplay.onclick = function(){
+    toolsDisplay.style.display = "none"
+    whoTextDisplay.style.display = "block"
+}
+whoDisplay.onmouseleave = function(){
+    toolsDisplay.style.display = "block"
+    whoTextDisplay.style.display = "none"
+}
+
+toolsDisplay.onclick = function(){
+    whoDisplay.style.display = "none"
+    toolsTextDisplay.style.display = "flex"
+}
+toolsDisplay.onmouseleave = function(){
+    whoDisplay.style.display = "block"
+    toolsTextDisplay.style.display = "none"
+}
+
 
