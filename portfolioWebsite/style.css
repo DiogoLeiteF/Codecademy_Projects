@@ -106,7 +106,8 @@ li a:hover{
 }
 
 #about{
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     background-color: whitesmoke;
     margin: auto;
 }
@@ -169,13 +170,49 @@ li a:hover{
 
 #portfolio{
     background-color: rgb(227, 227, 227);
-    height: 100vh;
+    height: auto;
     text-align: center;
+    margin: auto;
+    
 }
 
 #portfolio h2{
-    padding-top: 70px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
+
+#portfolio .container{
+    margin: auto;
+    max-width: 1500px;
+    min-height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .rockPaper{
+     background-image: url("./img/rockpapperscissors.png");
+     background-size: cover;
+     height: 300px;
+     width: 400px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 5px;
+ }
+
+ #project{
+     display: none;
+     text-decoration: none;
+     background-color: rgb(219, 41, 151);
+     padding: 1rem 2rem;
+     color: whitesmoke;
+     border-radius: 5px;
+ }
+
+
+
+
+
 
 #contact{
     background-color: rgb(32, 32, 32);
@@ -207,8 +244,23 @@ footer{
     height: 60px;
     text-align: center;
     color: whitesmoke;
-    padding: 25px;
+    /* padding: 25px; */
 }
 .highlight{
     color: rgb(219, 41, 151);
+}
+footer a{
+    position: relative;
+    top: -25px;
+}
+
+footer img{
+    width: 50px;
+}
+
+footer p{
+    position: relative;
+    top: -10px;
+    line-height: 0;
+    padding-bottom: 0px;
 }

@@ -80,3 +80,15 @@ toolsDisplay.onmouseleave = function(){
 }
 
 
+// portfolio
+
+const openProject = document.getElementById("project");
+// const styleOpenProject = getComputedStyle(openProject);
+const portfolioCard = document.querySelector(".rockPaper")
+
+portfolioCard.onmouseover = function(){
+    openProject.style.display = "block"
+    }
+portfolioCard.onmouseleave = function(){
+    openProject.style.display = "none"
+    }
